@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="../Images/notebg.png">
+
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!---------- this link for FADE-IN style ------------------>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+
+    <title>Project No1 Nir Nagar</title>
+</head>
+
+
+
+<body class="container  bg-page-tile">
+
+    <h1 class="styleNo1 page-title m-4">My Task Board</h1>
+
+    <div class="form-page col-sm-10 col-sm-push-1">
+
+        
+        <form class="form-group font-weight-bold  styleNo1  ">
+            <div class="form-row">
+                <input type="text" id="userTextInput" class="noteInput col-sm-12"
+                    placeholder="Please Inter Text For Notes">
+            </div>
+
+            <div class="form-row form-row-no1" id="dateDivInput">
+
+                <div class="col-xl-6 col-xs-12">
+                    <input type="time" id="userTimeInput" class="timeInput col-md-6 1col-sm-12 col-xs-12">
+                    <input type="date" id="userDateInput"
+                        class="dateInput col-md-6 1col-sm-12 col-xs-12  mt-sm-2 mt-md-0">
+                </div>
+
+                <div class="col-xl-6 col-xs-12">
+                    <button type="button" onclick="resetInput()"
+                        class="btn-info col-md-6  col-xs-12  mt-xl-0 mt-sm-2 ">Reset</button>
+                    <button type="button" onclick="saveNote()"
+                        class="btn-success col-md-6  col-xs-12  mt-xl-0 mt-sm-2 ">Save</button>
+                </div>
+
+            </div>
+        </form>
+
+
+    </div>
+
+    <br>
+    <div class=" page-title  styleNo1 m-3 col-lg-6 col-md-push-3 col-md-9 col-sm-push-1 col-sm-12 col-xs-9">
+
+        <button type="button" onclick="showAllNotes()"
+            class="btn-dark  col-md-4 col-xs-12 mt-md-0 mt-sm-2 ">All</button>
+
+        <button type="button" onclick="showNotesToDo()" class="btn-secondary col-md-4 col-xs-12 mt-md-0 mt-sm-2 ">To
+            Do</button>
+
+        <button type="button" onclick="showDoneNotes()"
+            class="btn-danger col-md-4 col-xs-12 mt-md-0 mt-sm-2 ">Done</button>
+    </div>
+
+
+
+
+
+
+    <h1 class="jumbotron1 m-4 titleMyNotes styleNo1">My Notes</h1>
+
+    <div id="myNotes" class="row myNotes styleNo1"> </div>
+
+
+
+
+
+
+
+    <script src="./index.js"> </script>
+</body>
+
+</html>

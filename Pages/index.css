@@ -1,0 +1,160 @@
+.bg-page-tile{
+    background-image: url(../Images/tile.jpg) ;
+}
+
+.page-title{
+    text-align:center;
+}
+
+.form-page{
+    background-image: url(../Images/formbg.jpg);
+}
+
+.form-group{
+    position: relative;
+    padding-right: 56px;
+    padding-left: 60px;
+}
+
+.form-row{
+    position: relative;
+    padding:15px;
+}
+
+.form-row-no1{
+    top: 14px;
+    padding-bottom: 31px;
+}
+
+.noteInput{
+    font-family: cursive;
+    background-color: transparent;
+    top: 5px;
+    border: transparent;
+}
+
+.styleNo1{
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.dateInput{
+    text-align: center;
+    font-family: cursive;
+    background-color: transparent;
+    border: transparent;
+}
+
+.timeInput{    
+    text-align: center;
+    font-family: cursive;
+    background-color: transparent;
+    border: transparent;
+}
+
+.titleMyNotes{
+    position: relative;
+    top: auto;
+    width: 200px;
+}
+
+.myNotes{
+    position: relative;
+    top: auto;
+}
+
+.cardStyle{
+    background-image: url(../Images/notebg.png);
+    background-size: cover;
+    background-color:transparent;
+}
+
+.noteCardStyle{
+    width: 227px;
+    height: 288px;
+}
+
+.timeStyle{
+    position: relative;
+    top: 0px;
+    width: 52px;
+    left: 10px;
+}
+
+.dateStyle{
+    position: relative;
+    top: 0px;
+    width: 102px;
+    left: 10px;
+}
+
+.titleStyle{
+    position: relative;
+    top: 50px;
+    width:200px;
+    height: 165px;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 64px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+}
+
+.deleteButtonStyle{
+    position: absolute;
+    top: 21px;
+    left: 177px;
+    color: red;
+    font-size: x-large;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    line-height: 1;
+    cursor: pointer;
+    visibility : hidden;
+}
+
+.visibilityOn{
+    visibility : visible;
+}
+
+.visibilityOff{
+    visibility : hidden;
+}
+
+.doneButtonStyle{
+    position: absolute;
+    top: 21px;
+    left: 150px;
+    color: rgb(9, 207, 42);
+    font-size: x-large;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    line-height: 1;
+    cursor: pointer;
+    visibility : hidden;
+}
+
+.fadeInStyleTop{
+    animation: animatetop 4s;
+}
+
+.fadeInStyleBottom{
+    animation: animatebottom 4s;
+}
+
+.fadeInStyleLeft{
+    animation: animateleft 4s;
+}
+
+.fadeInStyleRight{
+    animation: animateright 4s;
+}
+
+.fadeInStyleZoom{
+    animation: animatezoom 4s;
+}
+
+
+
+
